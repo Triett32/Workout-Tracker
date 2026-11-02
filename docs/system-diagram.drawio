@@ -1,0 +1,165 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="dBU0rc7mpN3HNXKO1Cj-">
+    <mxGraphModel dx="1131" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Start: User logs a workout or asks for weekly stats" vertex="1">
+          <mxGeometry height="80" width="220" x="315" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="425" y="120" as="sourcePoint" />
+            <mxPoint x="424.5" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-3" connectable="0" parent="W_a9FAMTpKXUaI7kdTIU-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Raw text command" vertex="1">
+          <mxGeometry relative="1" x="-0.3428" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-5" edge="1" parent="1" source="W_a9FAMTpKXUaI7kdTIU-28" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="W_a9FAMTpKXUaI7kdTIU-9" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.2157" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="230" />
+            </Array>
+            <mxPoint x="346.12244899999996" y="296.12244899999996" as="sourcePoint" />
+            <mxPoint x="130" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-6" connectable="0" parent="W_a9FAMTpKXUaI7kdTIU-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Creates workout from input" vertex="1">
+          <mxGeometry relative="1" x="0.2472" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-7" edge="1" parent="1" source="W_a9FAMTpKXUaI7kdTIU-28" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="W_a9FAMTpKXUaI7kdTIU-13" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.0451" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="230" />
+            </Array>
+            <mxPoint x="408.51851899999997" y="281.48148100000003" as="sourcePoint" />
+            <mxPoint x="600" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-8" connectable="0" parent="W_a9FAMTpKXUaI7kdTIU-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Stats request" vertex="1">
+          <mxGeometry relative="1" x="-0.0146" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Workout Class&lt;div&gt;Holds date, type of workout, distance or duration, and for lifts (exercise, sets, reps, &amp;amp; weight)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="40" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-10" edge="1" parent="1" source="W_a9FAMTpKXUaI7kdTIU-9" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="W_a9FAMTpKXUaI7kdTIU-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="440" as="sourcePoint" />
+            <mxPoint x="150" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-11" connectable="0" parent="W_a9FAMTpKXUaI7kdTIU-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Workout Object" vertex="1">
+          <mxGeometry relative="1" x="-0.2333" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="WorkoutStorage&lt;div&gt;saves workouts&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="StatsCalculator&lt;div&gt;weekly stats&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-14" edge="1" parent="1" source="W_a9FAMTpKXUaI7kdTIU-13" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="W_a9FAMTpKXUaI7kdTIU-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="500" />
+            </Array>
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-15" connectable="0" parent="W_a9FAMTpKXUaI7kdTIU-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Requests saved workouts" vertex="1">
+          <mxGeometry relative="1" x="0.0181" y="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-21" edge="1" parent="1" source="W_a9FAMTpKXUaI7kdTIU-13" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="W_a9FAMTpKXUaI7kdTIU-22" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="430" y="500" as="sourcePoint" />
+            <mxPoint x="700" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-32" connectable="0" parent="W_a9FAMTpKXUaI7kdTIU-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Totals per discipline" vertex="1">
+          <mxGeometry relative="1" x="0.058" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Main prints summary of stats" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-23" edge="1" parent="1" source="W_a9FAMTpKXUaI7kdTIU-22" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="W_a9FAMTpKXUaI7kdTIU-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="360" y="770" as="sourcePoint" />
+            <mxPoint x="660" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-24" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="End (stats path): User sees data" vertex="1">
+          <mxGeometry height="80" width="120" x="640" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-26" edge="1" parent="1" source="W_a9FAMTpKXUaI7kdTIU-12" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.161;exitY=1.01;exitDx=0;exitDy=0;entryX=0.145;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;exitPerimeter=0;" target="W_a9FAMTpKXUaI7kdTIU-36" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="360" y="670" as="sourcePoint" />
+            <mxPoint x="219.99999999999977" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-27" connectable="0" parent="W_a9FAMTpKXUaI7kdTIU-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Saves workouts" vertex="1">
+          <mxGeometry relative="1" x="-0.2167" y="1" as="geometry">
+            <mxPoint x="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="(Main) CLI reads input and picks which action to run" vertex="1">
+          <mxGeometry height="80" width="135" x="357.5" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-29" edge="1" parent="1" source="W_a9FAMTpKXUaI7kdTIU-12" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.84;exitY=0.995;exitDx=0;exitDy=0;exitPerimeter=0;" target="W_a9FAMTpKXUaI7kdTIU-30" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="253.28201177351343" y="863.2820117735137" as="sourcePoint" />
+            <mxPoint x="310" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-31" connectable="0" parent="W_a9FAMTpKXUaI7kdTIU-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Workout saved confirmation" vertex="1">
+          <mxGeometry relative="1" x="-0.1258" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-30" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="End (log path): User sees confirmation" vertex="1">
+          <mxGeometry height="80" width="120" x="270" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-33" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="740" />
+            </Array>
+            <mxPoint x="190.00000000000045" y="649" as="sourcePoint" />
+            <mxPoint x="640" y="649" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-34" connectable="0" parent="W_a9FAMTpKXUaI7kdTIU-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="List of workouts" vertex="1">
+          <mxGeometry relative="1" x="-0.2174" y="2" as="geometry">
+            <mxPoint x="44" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-36" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Data File" vertex="1">
+          <mxGeometry height="80" width="60" x="40" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-37" edge="1" parent="1" source="W_a9FAMTpKXUaI7kdTIU-36" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.855;exitY=0;exitDx=0;exitDy=4.35;exitPerimeter=0;entryX=0.447;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;" target="W_a9FAMTpKXUaI7kdTIU-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="320" y="730" as="sourcePoint" />
+            <mxPoint x="370" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_a9FAMTpKXUaI7kdTIU-38" connectable="0" parent="W_a9FAMTpKXUaI7kdTIU-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Load Workouts" vertex="1">
+          <mxGeometry relative="1" x="-0.4512" as="geometry">
+            <mxPoint x="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
