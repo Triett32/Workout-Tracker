@@ -26,3 +26,13 @@ A Java command-line tool for logging swim, bike, run, and strength workouts in o
 
 ## Eisenhower Matrix
 [Eisenhower Matrix](docs/eisenhower-matrix.pdf)
+
+## How to Run
+Requires Java 17 or newer.
+
+```
+git clone https://github.com/Triett32/Workout-Tracker.git
+cd Workout-Tracker
+javac -d out src/*.java
+java -cp out Main
+```
