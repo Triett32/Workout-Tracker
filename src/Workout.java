@@ -18,4 +18,20 @@ public class Workout {
 		System.out.println("Distance: " + distance + " miles");
 		System.out.println("Duration: " + duration + " minutes");
 	}
+
+	public String getDate() {
+		return date;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public double getDistance() {
+		return distance;
+	}
+
+	public int getDuration() {
+		return duration;
+	}
 }
