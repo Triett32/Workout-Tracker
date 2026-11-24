@@ -5,7 +5,9 @@ public class Main {
 	public static void main(String[] args) {
 		System.out.println("Welcome to Workout Tracker!");
 
-		WorkoutStorage ws = new WorkoutStorage();
+		WorkoutStorage storage = new WorkoutStorage();
+
+		WorkoutStats stats = new WorkoutStats();
 
 		Scanner scanner = new Scanner(System.in);
 
@@ -36,12 +38,12 @@ public class Main {
 					System.out.print("Duration (minutes): ");
 					int duration = scanner.nextInt();
 
-					ws.saveWorkout(new Workout(date, type, distance, duration));
+					storage.saveWorkout(new Workout(date, type, distance, duration));
 					System.out.println("Workout saved");
 				}
 
 				case 2 -> {
-					ArrayList<Workout> workouts = ws.loadWorkouts();
+					ArrayList<Workout> workouts = storage.loadWorkouts();
 					
 					if (workouts.isEmpty()) {
 						System.out.println("No workouts found");
@@ -53,7 +55,10 @@ public class Main {
 					}
 				}
 
-				case 3 -> System.out.println("Viewing weekly stats...");
+				case 3 -> {
+					ArrayList<Workout> workouts = storage.loadWorkouts();
+					stats.displayWeeklyStats(workouts);
+				}
 
 				case 4 -> System.out.println("Exiting...");
 
